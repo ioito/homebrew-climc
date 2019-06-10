@@ -1,4 +1,4 @@
-class YunionClimcAT2100 < Formula
+class YunionClimc < Formula
   desc "Command-line interface to the OneCloud API server"
   homepage "https://yunion.io"
   url "https://github.com/yunionio/onecloud.git",
