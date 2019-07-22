@@ -2,7 +2,7 @@ class YunionClimcAT2110 < Formula
   desc "Command-line interface to the OneCloud API server"
   homepage "https://yunion.io"
   url "https://github.com/yunionio/onecloud.git",
-    :tag      => "release/2.11.0"
+    :tag      => "release/2.11"
   version_scheme 1
   head "https://github.com/yunionio/onecloud.git"
 
