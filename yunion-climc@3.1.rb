@@ -13,7 +13,7 @@ class YunionClimcAT31 < Formula
 
     (buildpath/"src/yunion.io/x/onecloud").install buildpath.children
     cd buildpath/"src/yunion.io/x/onecloud" do
-      system "make", "cmd/climc"
+      system "GOOS=darwin", "make", "cmd/climc"
       bin.install "_output/bin/climc"
       prefix.install_metafiles
     end
